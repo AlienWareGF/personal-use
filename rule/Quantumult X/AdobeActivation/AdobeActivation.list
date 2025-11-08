@@ -202,7 +202,7 @@ HOST,registration.presonus.com,AdobeActivation
 HOST,updates.presonus.com,AdobeActivation
 HOST,api.presonus.com,AdobeActivation
 
-# 三、IP-CIDR 41条
+# 三、IP-CIDR 47条
 IP-CIDR,3.208.248.199/32,AdobeActivation
 IP-CIDR,3.216.32.253/32,AdobeActivation
 IP-CIDR,3.219.243.226/32,AdobeActivation
@@ -232,17 +232,23 @@ IP-CIDR,63.140.38.219/32,AdobeActivation
 IP-CIDR,65.8.207.109/32,AdobeActivation
 IP-CIDR,100.24.211.130/32,AdobeActivation
 IP-CIDR,162.247.242.20/32,AdobeActivation
-IP-CIDR,199.232.114.137/32,AdobeActivation
+IP-CIDR,192.150.8.100/32,AdobeActivation
+IP-CIDR,192.150.8.118/32,AdobeActivation
 IP-CIDR,192.150.14.69/32,AdobeActivation
-IP-CIDR,192.150.18.101,AdobeActivation
-IP-CIDR,192.150.18.108,AdobeActivation
-IP-CIDR,192.150.22.40,AdobeActivation
-IP-CIDR,192.150.8.100,AdobeActivation
-IP-CIDR,192.150.8.118,AdobeActivation
-IP-CIDR,199.7.52.190,AdobeActivation
-IP-CIDR,199.7.52.190:80,AdobeActivation
-IP-CIDR,199.7.54.72,AdobeActivation
-IP-CIDR,199.7.54.72:80,AdobeActivation
+IP-CIDR,192.150.18.101/32,AdobeActivation
+IP-CIDR,192.150.18.108/32,AdobeActivation
+IP-CIDR,192.150.22.40/32,AdobeActivation
+IP-CIDR,199.7.52.190/32,AdobeActivation
+IP-CIDR,199.7.54.72/32,AdobeActivation
+IP-CIDR,199.232.114.137/32,AdobeActivation
+IP-CIDR,209.34.83.67/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
+IP-CIDR,209.34.83.73/32,AdobeActivation
 IP-CIDR,prod.adobegenuine.com,AdobeActivation
 
 # 四、别来沾边 4条
