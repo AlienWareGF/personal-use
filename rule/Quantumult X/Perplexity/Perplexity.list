@@ -22,4 +22,5 @@ HOST-SUFFIX,generativelanguage.googleapis.com,Perplexity
 
 # 七、OpenAI（GPT模型）
 HOST-SUFFIX,openai.com,Perplexity
+HOST,oaistatic.com,Perplexity
 HOST,api.openai.com,Perplexity
