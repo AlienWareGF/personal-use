@@ -119,6 +119,7 @@ HOST-SUFFIX,ai.jd.com,China
 HOST-SUFFIX,yiyan.baidu.com,China
 
 # 远程办公类
+HOST,speedtest.net,China
 HOST-SUFFIX,todesk.com,China
 HOST-SUFFIX,raylink.com,China
 HOST-SUFFIX,oray.com,China
