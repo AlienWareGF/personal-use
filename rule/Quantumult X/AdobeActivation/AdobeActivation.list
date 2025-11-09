@@ -251,7 +251,7 @@ IP-CIDR,209.34.83.73/32,AdobeActivation
 IP-CIDR,209.34.83.73/32,AdobeActivation
 
 # 四、统一 4条
-host-keyword,adobe.de,AdobeActivation
-host-keyword,adobe.io,AdobeActivation
-host-keyword,adobestats.io,AdobeActivation
-host-keyword,hstatic.io,AdobeActivation
+HOST-KEYWORD,adobe.de,AdobeActivation
+HOST-KEYWORD,adobe.io,AdobeActivation
+HOST-KEYWORD,adobestats.io,AdobeActivation
+HOST-KEYWORD,hstatic.io,AdobeActivation
