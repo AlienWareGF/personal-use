@@ -214,7 +214,7 @@ HOST,wwis-dubc1-vip123.adobe.com,AdobeActivation
 HOST,wwis-dubc1-vip124.adobe.com,AdobeActivation
 HOST,wwis-dubc1-vip125.adobe.com,AdobeActivation
 
-# > IP 拦截规则 (IP-CIDR, 已去重)
+# > IP 拦截规则
 IP-CIDR,3.208.248.199/32,AdobeActivation
 IP-CIDR,3.216.32.253/32,AdobeActivation
 IP-CIDR,3.219.243.226/32,AdobeActivation
