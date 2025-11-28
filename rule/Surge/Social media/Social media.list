@@ -1,27 +1,8 @@
 # > 抖音及关联服务
-DOMAIN-SUFFIX,douyin.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,iesdouyin.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,toscdn.com
-DOMAIN-SUFFIX,toutiaocdn.com
-DOMAIN-SUFFIX,bytecdn.com
-DOMAIN-SUFFIX,bytecdn.cn
-DOMAIN-SUFFIX,bytedns.net
-DOMAIN-SUFFIX,bytedns.com
-DOMAIN-SUFFIX,zjgslb.com
-DOMAIN-SUFFIX,bdgslb.com
-DOMAIN-SUFFIX,oortgslb.com
-DOMAIN-SUFFIX,jinritemai.com
-DOMAIN-SUFFIX,huoshan.com
-DOMAIN-SUFFIX,huoshan.tv
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX, amemv.com
+DOMAIN-SUFFIX, douyin.com
+DOMAIN-SUFFIX, iesdouyin.com
+DOMAIN-SUFFIX, snssdk.com
 
 # > 快手及关联服务
 DOMAIN-SUFFIX,kuaishou.com
