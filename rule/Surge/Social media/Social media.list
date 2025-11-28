@@ -1,4 +1,5 @@
 # > 抖音及关联服务
+AND,((PROTOCOL,UDP),(DOMAIN-SUFFIX,amemv.com)),REJECT
 DOMAIN-SUFFIX, amemv.com
 DOMAIN-SUFFIX, douyin.com
 DOMAIN-SUFFIX, iesdouyin.com
