@@ -8,4 +8,4 @@
 {{{TITLE}}} = script-name={{{TITLE}}},update-interval={{{UPDATE_INTERVAL}}}
 
 [Script]
-{{{TITLE}}} = type=generic,timeout=30,engine=webview,script-path=链接.js,argument=title={{{TITLE}}}&icon={{{ICON}}}&color={{{COLOR}}}&provname={{{PROVNAME}}}&apikey={{{APIKEY}}}
+{{{TITLE}}} = type=generic,timeout=30,engine=webview,script-path=https://raw.githubusercontent.com/alienwaregf/personal-use/refs/heads/main/rule/Surge/sgmodule/Oil.js,argument=title={{{TITLE}}}&icon={{{ICON}}}&color={{{COLOR}}}&provname={{{PROVNAME}}}&apikey={{{APIKEY}}}
