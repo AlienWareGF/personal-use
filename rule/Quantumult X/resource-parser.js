@@ -750,9 +750,6 @@ function TagCheck_QX(content) {
                 item = item.replace(/tls-alpn\s*=\s*([^,]+)/gi, ""); // 清理旧 ALPN
                 item += ", tls-alpn=http/1.1";
 
-                // 6. 清理多余空格和逗号 (防止脚本报错)
-                item = item.replace(/(\s*,\s*)+/g, ", ").trim();
-
                 Nlist.push(item)
             }
         }// if "tag="
