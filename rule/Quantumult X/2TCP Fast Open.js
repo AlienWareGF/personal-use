@@ -617,7 +617,9 @@ function TagCheck_QX(content) {
           }
             ni = 0
             if (item) {
-                // --- 终极修复：解决红叉 + 1分钟断流 + UDP阻断 ---
+                // ============================================================
+                // 🛠 Cloudflare 优选节点：全方位修复补丁 (含 Host 同步)
+                // ============================================================
                 
                 // 1. 强制关闭 TLS 证书验证 (解决红叉)
                 item = item.replace(/tls-verification\s*=\s*true/gi, "tls-verification=false");
@@ -631,9 +633,12 @@ function TagCheck_QX(content) {
                 item = item.replace(/udp-relay\s*=\s*true/gi, "udp-relay=false");
                 if (item.indexOf("udp-relay=") == -1) item += ", udp-relay=false";
 
-                // 4. 【核心】强制禁止会话复用 (解决“刚通一会就超时”的元凶)
-                if (item.indexOf("tls-no-session-ticket=") == -1) item += ", tls-no-session-ticket=true";
-                if (item.indexOf("tls-no-session-reuse=") == -1) item += ", tls-no-session-reuse=true";
+                // 4. 强制禁止会话复用 (解决握手失败)
+                if (item.indexOf("tls-no-session-ticket") == -1) item += ", tls-no-session-ticket=true";
+                if (item.indexOf("tls-no-session-reuse") == -1) item += ", tls-no-session-reuse=true";
+
+                // 5. 强制 HTTP/1.1 (防止 H2 假死)
+                if (item.indexOf("tls-alpn") == -1) item += ", tls-alpn=http/1.1";
 
                 Nlist.push(item)
             }
